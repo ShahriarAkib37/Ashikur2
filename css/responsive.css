@@ -1,0 +1,93 @@
+/* nav s */
+
+@media (min-width: 320px) and (max-width: 768px) {
+    nav {
+      background: #fff;
+      box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+    }
+  }
+  
+/*  nav end*/
+
+
+/* banner stars */
+@media (max-width: 991px){
+
+    .banner_img img{
+        width: 100%;
+    }
+
+    .banner_cnt .button{
+      margin-right: 12px;
+    }
+
+    .button {
+    
+    padding: 8px 20px;
+    font-size: 10px;
+    
+    }
+    .button.extralook{
+      padding: 8px 7px 9px 7px;
+    }
+}
+/* banner ends */
+
+/* about starts */
+
+@media (max-width: 992px) {
+  .about_cnt .button.button.extralook {
+    font-size: 14px;
+    padding: 11px 28px;
+  }
+#about .about_img img{
+  width: 100%;
+  transform: scalex(-1);
+}
+#about .about_cnt h2{
+  padding-top: 40px
+}
+
+}
+/* about ends */
+
+/* service start s */
+
+@media (max-width : 991px){
+
+ /*  */
+ .service_card .service_cnt{
+  text-align: left;
+ }
+ .service_card.middle{
+  padding: 0 0px 0 0px;
+
+ }
+ 
+}
+/* service end s */
+
+
+/* branding  */
+
+@media (max-width: 992px){
+.branding_img img {
+width: 100%;
+}
+.branding_cnt h2{
+  padding: 0 40px;
+  font-size: 24px;
+}
+
+.branding_cnt p{
+  padding: 0 40px;
+  font-size: 14px;
+}
+
+.branding_cnt .project{
+  padding: 0 40px;
+  font-size: 14px;
+  font-weight: 600;
+}
+}
+/* branding  */
